@@ -27,3 +27,32 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+
+.film-title {
+  width: 35%;
+  margin: 0px;
+}
+
+/* WATCH LATER/CLOCK */
+.action-watch-later {
+    color: red;
+}
+
+/* LIKE/SAVE/SHARE */
+.action-like {
+    color: red;
+}
+
+.film-details {
+    width: 65%;
+    float: right;
+}
+
+figure.film-poster {
+    float: left;
+    width: 30%;
+}
+
+article.film {
+    overflow: hidden;
+}
