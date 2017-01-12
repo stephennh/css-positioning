@@ -17,6 +17,7 @@ body {
 
 .container {
   width: 90%;
+  height: 10%;
   margin: auto;
   border: 3px solid black;
   background-color: #eee;
@@ -29,20 +30,37 @@ body {
 
 .red {
   background-color: pink;
+  position: absolute;
+  top: 50px;
+  right: 100px;
 }
 
 .green {
   background-color: lightgreen;
+  position: absolute;
+  bottom: 50px;
+  right: 50%;
+  z-index: 2;
 }
 
 .blue {
   background-color: lightblue;
+  position: relative;
+  top: 50px;
+  left: 200px;
+  z-index: 3;
 }
 
 .orange {
   background-color: orange;
+  position: absolute;
+  top: 75%;
+  left: 25%;
 }
 
 .yellow {
   background-color: yellow;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
