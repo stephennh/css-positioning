@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+  position: relative;
   width: 90%;
   height: 10%;
   margin: auto;
@@ -59,6 +60,8 @@ body {
 }
 
 .yellow {
+  left: 0px;
+  bottom: 0px;
   background-color: yellow;
   position: fixed;
   width: 100%;
